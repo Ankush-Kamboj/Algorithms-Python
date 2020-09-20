@@ -7,8 +7,7 @@ def bubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped = True
 
-        # If element was not swapped it was at correct position
-        # So, break the loop
+        # if the array is sorted
         if not swapped:
             break
 
