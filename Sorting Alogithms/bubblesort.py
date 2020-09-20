@@ -10,7 +10,6 @@ def bubbleSort(arr):
         # If element was not swapped it was at correct position
         # So, break the loop
         if not swapped:
-            print('here', arr[i])
             break
 
     return arr
