@@ -16,7 +16,7 @@ def bubbleSort(arr):
     return arr
 
 if __name__ == "__main__":
-    # arr = [78, 56, 63, 18, 23]      # List to sort
-    arr = [78, 18, 56, 23, 63]
+    arr = [78, 56, 63, 18, 23]      # List to sort
+    
     result = bubbleSort(arr)
     print(result)
